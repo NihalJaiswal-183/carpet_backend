@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Secret key file
+*.key
+
+# Django development server process ID file
+*.pid
+
+# Database files
+*.sqlite3
+*.db
+
+# Static files directory
+/static/
+
+# Media files directory
+/media/
+
+# Virtual environment directory (assuming it's in the project directory)
+myenv/
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment-specific files
+.env
+
+# Log files
+*.log
