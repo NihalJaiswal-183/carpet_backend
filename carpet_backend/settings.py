@@ -61,10 +61,11 @@ DEFAULT_APPS = [
 ]
 
 CUSTOM_APPS = [
-    "accounts"
+    "accounts",
+    "carpet_home"
 ]
 
-INSTALLED_APPS =  DEFAULT_APPS + CUSTOM_APPS
+INSTALLED_APPS = DEFAULT_APPS + CUSTOM_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

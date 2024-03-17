@@ -33,7 +33,8 @@ cred = credentials.Certificate({
     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-c55ut%40carpet-backend.iam.gserviceaccount.com",
     "universe_domain": "googleapis.com"
   })
-a=firebase_admin.initialize_app(cred)
+a = firebase_admin.initialize_app(cred)
+
 
 def is_valid_uid(uid):
     try:
@@ -43,6 +44,7 @@ def is_valid_uid(uid):
     except Exception as e:
         print("Error checking UID validity:", e)
         return False
+
 
 def get_firebase_token(uid):
     if not is_valid_uid(uid):
