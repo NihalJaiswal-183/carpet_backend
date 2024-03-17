@@ -21,6 +21,8 @@ _pycache_/
 
 # Virtual environment directory (assuming it's in the project directory)
 myenv/
+venve/
+venv/
 
 # IDE or editor-specific files
 .vscode/
